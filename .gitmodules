@@ -20,18 +20,6 @@
 	branch = feature/net30
 	update = merge
 
-[submodule "src/3rdparty/libx11"]
-	path = src/3rdparty/libx11
-	url = ../../freedesktop/xorg-libX11.git
-	branch = master
-	update = merge
-
-[submodule "src/3rdparty/xorgproto"]
-	path = src/3rdparty/xorgproto
-	url = ../../freedesktop/xorg-xorgproto.git
-	branch = master
-	update = merge
-
 [submodule "src/3rdparty/inserticons"]
 	path = src/3rdparty/inserticons
 	url = ../../samhocevar-forks/inserticons.git
@@ -41,3 +29,9 @@
 	url = ../../jrsoftware/issrc.git
 	branch = main
 	update = merge
+[submodule "src/3rdparty/libx11"]
+	path = src/3rdparty/libx11
+	url = https://gitlab.freedesktop.org/xorg/lib/libx11.git
+[submodule "src/3rdparty/xorgproto"]
+	path = src/3rdparty/xorgproto
+	url = https://gitlab.freedesktop.org/xorg/proto/xorgproto.git
