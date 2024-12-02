@@ -1,15 +1,3 @@
-[submodule "src/3rdparty/unicode-emoji"]
-	path = src/3rdparty/unicode-emoji
-	url = ../unicode-emoji.git
-	branch = master
-	update = merge
-
-[submodule "src/3rdparty/unicode-translation"]
-	path = src/3rdparty/unicode-translation
-	url = ../unicode-translation.git
-	branch = master
-	update = merge
-
 [submodule "src/3rdparty/xcompose"]
 	path = src/3rdparty/xcompose
 	url = ../../samhocevar-forks/xcompose.git
@@ -35,3 +23,9 @@
 [submodule "src/3rdparty/xorgproto"]
 	path = src/3rdparty/xorgproto
 	url = https://gitlab.freedesktop.org/xorg/proto/xorgproto.git
+[submodule "src/3rdparty/unicode-emoji"]
+	path = src/3rdparty/unicode-emoji
+	url = ../../samhocevar/unicode-emoji
+[submodule "src/3rdparty/unicode-translation"]
+	path = src/3rdparty/unicode-translation
+	url = ../../samhocevar/unicode-translation
